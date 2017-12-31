@@ -1,0 +1,101 @@
+
+
+img{
+	max-width: 250px;
+	
+}
+
+p {
+	display: inline-block;
+}
+
+body {
+	text-align: center;
+	background-color: #c1d9ff;
+}
+
+button {
+	height: 60px;
+	padding: 10px;
+	border: none;
+	background: none;
+}
+
+.activeBtn {
+	opacity: 0.5;
+}
+
+.missingCard {
+	display: inline-block;
+	text-align: center;
+	opacity: 0.7;
+	padding: 4px;
+	margin: 3px;
+}
+
+.card {
+	display: inline-block;
+	text-align: center;
+	
+	padding: 4px;
+	margin: 3px;
+}
+
+/*Land Buttons*/
+	.setBtn {
+		background-color: white;
+		margin: 5px;
+		font-size: 18px;
+	}
+
+.landBtn {
+	height: 70px;
+	width: 70px;
+	background-size: cover;
+		background-repeat: no-repeat;
+}
+
+	#Island {
+		background-color: #a4c2f2;
+	}
+
+	#Forest {
+		
+		background-image: url("assets/forestIcon.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#Mountain {
+		background-color: #f79683;
+	}
+
+	#Plains {
+		background-image: url("assets/plainsIcon.png");
+	
+	}
+
+	#Swamp {
+		background-image: ("assets/swampIcon.png");
+		
+	}
+
+.card p, .missingCard p {
+	display: block;
+}
+
+.cardName {
+	
+	min-height: 50px;
+	line-height: 50px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
+}
+
+#navBar {
+	height: auto;
+	background-color: black;
+	margin-bottom: 60px;
+	padding: 5px;
+}
+
